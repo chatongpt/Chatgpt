@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Interview Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Video Interview Chat</h1>
+        <div class="video-container">
+            <video id="localVideo" autoplay muted></video>
+            <video id="remoteVideo" autoplay></video>
+        </div>
+        <div class="chat-container">
+            <div id="chatBox"></div>
+            <input type="text" id="chatInput" placeholder="Type a message">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
